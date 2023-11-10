@@ -1,7 +1,8 @@
 import HomePage from './pages/homePage'
 import Header from './components/Header'
-import ProfilePage from './pages/profilePage'
-import Messages from './pages/messages'
+import ContactPage from './pages/contactPage'
+import Projects from './pages/projects'
+import Footer from './components/Footer'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 function App() {
@@ -12,9 +13,11 @@ function App() {
         <Header />
         <Routes>
           <Route path='/' element={<HomePage />} />
-          <Route path='/profile' element={<ProfilePage />} />
-          <Route path='/friends' element={<Messages />} />
+          <Route path='/contact' element={<ContactPage />} />
+          <Route path='/projects' element={<Projects />} />
         </Routes>
+        
+        <Footer />
       </BrowserRouter>
     </>
   )

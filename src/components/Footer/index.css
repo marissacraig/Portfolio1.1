@@ -1,8 +1,23 @@
-.footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 50px;
-    padding: 20px 30px;
-    background-color: rgb(114, 34, 12);
+footer {
+    inline-size: 100%;
+    justify-content: center;
+}
+
+.service {
+    display: inline-block;
+    margin: 10px;
+    height: fit-content;
+    padding: 20px;
+    
+    }
+
+.contact{
+    padding: 20px;
+    /* display: inline-flex;
+    flex-direction: row;
+    float: inline-end; */
+    margin: 2%;
+    max-height:35%;
+    inline-size: 12%;
+    
 }

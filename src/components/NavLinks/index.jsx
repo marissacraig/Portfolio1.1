@@ -19,21 +19,15 @@ function NavLinks({ closeHamburger, isMobile }) {
                     {/* <a href='/'>HomePage</a> */}
                 </li>
                 <li>
-                    <NavLink to='/profile' onClick={closeHamburgerMenu}>
-                        Profile
+                    <NavLink to='/contact' onClick={closeHamburgerMenu}>
+                        Contact
                     </NavLink>
                     {/* <a href='/profile'>Profile</a> */}
                 </li>
                 <li>
-                    <NavLink to='/friends' onClick={closeHamburgerMenu}>
-                        Messages
+                    <NavLink to='/projects' onClick={closeHamburgerMenu}>
+                        Projects
                     </NavLink>
-                </li>
-                <li>
-                    <p>Login</p>
-                </li>
-                <li>
-                    <p>Signup</p>
                 </li>
             </ul>
         </nav>

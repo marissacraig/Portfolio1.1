@@ -1,8 +1,10 @@
+.navigation {
+    display: inline-flex;
+}
 
 
 
-
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 800px) {
     .navigation {
         display: none;
     }

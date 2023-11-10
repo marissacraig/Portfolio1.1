@@ -1,4 +1,3 @@
-import { NavLink } from "react-router-dom";
 import MobileNav from "../MobileNav";
 import Navigation from "../Navigation";
 import './index.css'
@@ -6,9 +5,8 @@ import './index.css'
 function Header() {
     return (
         <header className="header">
-            <NavLink to='/'>
-                <img src="/vite.svg"></img>
-            </NavLink>
+            
+                <h1>.Portfolio</h1>   
             
             <Navigation />
             <MobileNav />

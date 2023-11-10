@@ -39,3 +39,22 @@ ol, ul {
 }
 
 /* /////////////////////////////////// RESET OVER ////////////////////////// */
+
+* {
+  --black: #000000;
+  --white: #ffffff;
+  --rust: #925946;
+  --mustard: #c58b2a;
+  --sage: #c3c6b1;
+  --green: #4b553a;
+  --tan: #bf8f72;
+  --background:#f7e3d4;
+}
+
+body {
+  font-size: 24px;
+  min-height: 100vh;
+  background-color: var(--background);
+  justify-content: center;
+  }
+

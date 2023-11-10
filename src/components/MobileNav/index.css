@@ -1,15 +1,26 @@
+* {
+    --black: #000000;
+    --white: #ffffff;
+    --rust: #925946;
+    --mustard: #c58b2a;
+    --sage: #c3c6b1;
+    --green: #4b553a;
+    --tan: #bf8f72;
+    --background:#f7e3d4;
+}
+
 .mobile-nav {
     display: none;
 }
 
 .mobile-nav ul {
     width: 100%;
-    background-color: antiquewhite;
+    background-color: var(--tan);
 }
 
 .mobile-nav ul li,  .mobile-nav ul li a, .mobile-nav ul li p {
     padding: 10px;
-    color: black;
+    color: var(--green);
 }
 
 
@@ -25,7 +36,7 @@
 
 
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 800px) {
     .mobile-nav {
         display: block;
     }

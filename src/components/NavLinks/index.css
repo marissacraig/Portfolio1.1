@@ -1,28 +1,30 @@
+* {
+    --black: #000000;
+    --white: #ffffff;
+    --rust: #925946;
+    --mustard: #c58b2a;
+    --sage: #c3c6b1;
+    --green: #4b553a;
+    --tan: #bf8f72;
+    --background:#f7e3d4;
+}
+
 .navLinks ul li, .navLinks ul li a {
     list-style-type: none;
     display: inline;
-    margin-right: 15px;
-    color: white;
+    margin-right: 10px;
+    color: var(--sage);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: none;
 }
 .navLinks ul li a:hover {
     cursor: pointer;
-    text-decoration: underline;
+    color:var(--sage);
+    font-size:larger;
 }
-
-/* style for logout */
-.navLinks ul li p {
-    display: inline;
-    margin-right: 0;
-}
-.navLinks ul li p:hover {
-    cursor: pointer;
-    text-decoration: underline;
-}
-
 
 /* mobile styles */
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 800px) {
     .navLinks ul {
         position: absolute;
         top: 70px;
