@@ -45,7 +45,7 @@ function Project() {
                 <p>React</p>
             </div>
             <div className="post-body">
-            <a href="https://the-gift-genius-f23e07b1b55d.herokuapp.com/"><img className="tile" src=""/></a>
+            <a href="https://the-gift-genius-f23e07b1b55d.herokuapp.com/"><img className="tile" src="/gift-genius.png"/></a>
             </div>
 
 
